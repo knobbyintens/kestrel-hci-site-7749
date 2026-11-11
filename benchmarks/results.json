@@ -1,0 +1,46 @@
+{
+  "quarter": "2026-Q4",
+  "recorded_on": "2026-11-02",
+  "benchmarks": [
+    {
+      "suite": "Atlas-Vision",
+      "status": "verified",
+      "metrics": {"accuracy": 0.812, "robustness": 0.744, "coverage": 0.681, "latency_index": 0.312}
+    },
+    {
+      "suite": "Beacon-Retrieval",
+      "status": "verified",
+      "metrics": {"accuracy": 0.795, "robustness": 0.708, "coverage": 0.753, "latency_index": 0.284}
+    },
+    {
+      "suite": "Cipher-Reasoning",
+      "status": "verified",
+      "metrics": {"accuracy": 0.766, "robustness": 0.822, "coverage": 0.694, "latency_index": 0.355}
+    },
+    {
+      "suite": "Delta-Speech",
+      "status": "verified",
+      "metrics": {"accuracy": 0.841, "robustness": 0.679, "coverage": 0.618, "latency_index": 0.402}
+    },
+    {
+      "suite": "Ember-Code",
+      "status": "verified",
+      "metrics": {"accuracy": 0.789, "robustness": 0.736, "coverage": 0.712, "latency_index": 0.196}
+    },
+    {
+      "suite": "Falcon-Safety",
+      "status": "provisional",
+      "metrics": {"accuracy": 0.805, "robustness": 0.751, "coverage": 0.662, "latency_index": 0.271}
+    },
+    {
+      "suite": "Granite-Grounding",
+      "status": "provisional",
+      "metrics": {"accuracy": 0.772, "robustness": 0.698, "coverage": 0.707, "latency_index": 0.238}
+    },
+    {
+      "suite": "Harbor-Dialog",
+      "status": "provisional",
+      "metrics": {"accuracy": 0.814, "robustness": 0.720, "coverage": 0.766, "latency_index": 0.309}
+    }
+  ]
+}
